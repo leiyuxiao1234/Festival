@@ -1,0 +1,19 @@
+﻿<Window x:Class="WPFYuxiao.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFYuxiao.View"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Resources/Festival.png"/>
+        </Grid.Background>
+
+        <Button x:Name="btnArtist" Content="Créer un artiste" HorizontalAlignment="Left" Margin="169,132,0,0" VerticalAlignment="Top" Width="120" Click="BtnArtist_Click" Background="#4E87D4" Height="24"/>
+        <Button x:Name="btnArtistsList" Content="Gérer des artistes" HorizontalAlignment="Left" Margin="169,173,0,0" VerticalAlignment="Top" Width="120" Click="BtnArtistsList_Click" Background="#4E87D4" Height="25"/>
+        <Button x:Name="btnPlace" Content="Lieux" HorizontalAlignment="Left" Margin="169,216,0,0" VerticalAlignment="Top" Width="120" Click="BtnPlace_Click" Background="#4E87D4" Height="25"/>
+
+    </Grid>
+</Window>
